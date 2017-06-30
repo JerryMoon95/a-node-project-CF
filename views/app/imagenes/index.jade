@@ -1,0 +1,12 @@
+extends ../../layout.jade
+block contenido
+    div(class="container")
+        h1 Mis imagenes
+        for imagen in imagenes
+            .white.border.tr.large-padding
+                .row
+                    .col-md-10
+                        h3=imagen.title
+                    .col.md.2
+                        a(href="/app/imagenes/#{imagen._id}/edit", class="text-right") Editar
+                        a(href="/app/imagenes/#{imagen._id}", class="text-right") Eliminar

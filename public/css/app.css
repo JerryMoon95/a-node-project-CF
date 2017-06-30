@@ -1,0 +1,52 @@
+/*forms*/
+.remove-float{
+    float: none;
+}
+.margin-right{
+    margin-right: 1em;
+}
+.margin-left{
+    margin-left: 1em;
+}
+.big-top-space{
+    margin-top: 5em;
+}
+
+/*nav*/
+
+.large-padding{
+    padding: 10px 15px;
+}
+.black{
+    background-color: #222;
+}
+.white-text{
+    color: #ffffff;
+}
+nav {
+    text-align: right;  
+}
+nav li{
+    display: inline-block;
+    margin-right: 1em;
+}
+nav li a{
+    padding: .5em;
+
+}
+nav li a:hover{
+    color: #fff;
+        
+}
+
+.tr:nth-of-type(odd){
+    background-color: #eee;
+}
+
+nav li a.text-right{
+    text-align: right;
+}
+
+.hidden{
+    display: none;
+}
